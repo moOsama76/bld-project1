@@ -1,0 +1,60 @@
+<!-- MY DESIGN IS BASED ON FIREFOX -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel = "stylesheet" href = "testcss.css">
+    <script src="backend.js"></script>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<div class = "navbar">
+    <img class = "logo" src = "/images/Udemy_logo.png" width="12%" height="12%">
+    <img class="iconSmall" src="/images/heart.png">
+    <img class="iconSmall" src="/images/cart.png">
+    <img class="iconSmall" src="/images/bell.png">
+    <p>Categories</p>
+    <div class = "searchbardiv">
+        <img class="magnifier" src="/images/magnifier.png">
+        <input class = "searchbar" type="text" placeholder="Search for courses.." onKeyUp = "search()"/>
+    </div>
+    <p>Udemy Business</p>
+    <p>Teach on Udemy</p>
+    <p>My learning</p>
+    <img class="icon" src="/images/heart.png">
+    <img class="icon" src="/images/cart.png">
+    <img class="icon" src="/images/bell.png">
+
+</div>
+<img class="wallbaber" src="/images/coding.jpg">
+<div class = "sentence">
+    <p class = "large">Learning that gets you</p>
+    <p class = "small">Skills for your present (and your future). Get started with us.</p>
+</div>
+<div class = "sentence2">
+    <p class = "large">Learning that gets you</p>
+    <p class = "small">Skills for your present (and your future). Get started with us.</p>
+</div>
+
+<div class = "buttons">
+    <button id = "swap0" class="button"  type="button" onclick="swap('all')">All</button>
+    <button id = "swap1" class="button"  type="button" onclick="swap('py')">Python</button>
+    <button id = "swap2" class="button"  type="button" onclick="swap('cpp')">C++</button>
+    <button id = "swap3" class="button"  type="button" onclick="swap('js')">Javascript</button>
+</div>
+<div class = "courses">
+    <div id="j" class="carousel slide" data-ride="carousel">
+        <div class="py">
+
+        </div>
+        <div class="js">
+
+        </div>
+        <div class="cpp">
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

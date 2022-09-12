@@ -1,0 +1,309 @@
+
+.navbar{
+    margin-bottom: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    #border: 2px solid black;
+    box-shadow: 0 4px 0 0 lightgrey;
+
+}
+.navbar p{
+    width: 120px;
+    margin: 0px;
+    padding-top: 25px;
+    text-align: center;
+    line-height: 15px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    #border: 2px solid black;
+}
+
+.logo{
+    width: 100px;
+    margin: 10px;
+    padding: 0px;
+    font-size: 15px;
+    #border: 2px solid black;
+
+}
+
+.searchbar{
+    padding-top: 10px;
+    border: none;
+    float: left;
+    width: 75%;
+    height: 55%;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    background: #f9f9f9;
+    outline: none;
+}
+
+.searchbardiv{
+    border-radius: 35px 35px 35px 35px;
+    height: 40px;
+    width:450px;
+    margin: 25px;
+    padding-left: 1px;
+    padding-top: 0px;
+    text-align: center;
+    line-height: 15px;
+    background: #f9f9f9;
+    margin-top: 1%;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.magnifier{
+    float: left;
+    height: 20px;
+    width: 5%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.icon{
+    float: right;
+    padding: 5px;
+    padding-top: 20px;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    margin: 6px;
+}
+
+.iconSmall{
+    display: none;
+}
+
+.wallbaber{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    box-shadow: 0 4px 0 0 lightgrey;
+
+}
+
+.sentence{
+    position: absolute;
+    top: 10rem;
+    left: 10%;
+    right: 60%;
+    padding: 10px;
+    width: 28%;
+    background: white;
+    text-align: left;
+    box-shadow: 0 2px 5px lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sentence2{
+    display: none;
+}
+.large{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+
+
+}
+
+.small{
+    font-size: 15px;
+    font-family: Arial, sans-serif, "Rasa SemiBold";
+}
+.courses{
+    border: 1px solid black;
+    padding-bottom: 200px;
+    padding-left: 10px;
+}
+.course{
+    width: 250px;
+    height: 160px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.courseImg{
+    left: 100px;
+    width: 220px;
+    height: 110px;
+    display: inline-block;
+}
+
+.courseTxt{
+    text-align: left;
+    margin-left: 0;
+    max-width: 300px;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.4;
+
+}
+.courseTxt2{
+    text-align: left;
+    margin-left: 0;
+    display: inline-block;
+
+}
+
+.buttons{
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 300px;
+
+}
+
+.button {
+    background: none;
+    border: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button:hover {
+    color: black;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar{
+        padding-bottom: 2px;
+        margin-bottom: 5px;
+        display: block;
+        flex-wrap: wrap;
+        font-family: Arial, sans-serif;
+        #border: 2px solid black;
+        box-shadow: 0px 2px lightgrey;
+
+    }
+    .navbar p{
+        margin:auto;
+        width: 120px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-align: center;
+        line-height: 15px;
+        font-size: 12px;
+        font-family: Arial, sans-serif;
+        #border: 2px solid black;
+    }
+
+    .logo{
+        left: 50%;
+        padding: 0px;
+        font-size: 15px;
+        #border: 2px solid black;
+
+    }
+
+    .searchbar{
+        padding: 10px;
+        padding-top: 12px;
+        font-size: 17px;
+        border: none;
+        width: 65%;
+        height: 25%;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        background: #f9f9f9;
+        outline: none;
+    }
+
+    .magnifier{
+        float: left;
+        height: 60%;
+        width: 6%;
+        display: inline-block;
+        margin: 6px;
+
+    }
+    .searchbardiv{
+        margin:auto;
+        display: block;
+        border-radius: 35px 35px 35px 35px;
+        height: 30px;
+        width:300px;
+        padding-left: 1px;
+        padding-top: 0px;
+        text-align: center;
+        line-height: 15px;
+        border: none;
+        background: #f9f9f9;
+
+    }
+    .icon{
+        display: none;
+    }
+    .iconSmall{
+        display: inline;
+        float: right;
+        top: 0;
+        padding-top: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: 15px;
+        width: 15px;
+        margin: 1px;
+    }
+
+    .wallbaber{
+        #object-fit: cover;
+        #height: 25rem;
+        #object-position: center;
+        display: none;
+    }
+
+    .sentence{
+        display: none;
+    }
+    .sentence2{
+        display: inline-block;
+
+    }
+    .large{
+        font-size: 30px;
+        font-family: "Times New Roman", Times, serif;
+        margin: 0px;
+    }
+
+    .small{
+        font-size: 15px;
+        font-family: Arial, sans-serif, "Rasa SemiBold";
+        margin: 3px;
+        margin-bottom: 20px;
+
+    }
+    .courseImg{
+        left: 100px;
+        width: 200px;
+        height: 120px;
+        display: inline-block;
+
+    }
+    .courseTxt{
+        text-align: left;
+        margin-left: 0;
+        max-width: 250px;
+        display: inline-block;
+
+    }
+    .courses{
+        border: 1px solid black;
+        padding-bottom: 200px;
+        padding-left: 25%;
+    }
+    .buttons{
+        padding-left: 30%;
+    }
+}
